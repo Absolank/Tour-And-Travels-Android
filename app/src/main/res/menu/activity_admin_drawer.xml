@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Account" />
+        <item
+            android:id="@+id/update_member_info"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Update Member Info" />
+        <item
+            android:id="@+id/flight_invoice"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Flight Invoice" />
+        <item
+            android:id="@+id/hotel_invoice"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Hotel Invoice" />
+        <item
+            android:id="@+id/package_invoice"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Package Invoice" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Logout" />
+    </group>
+</menu>
